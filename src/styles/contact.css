@@ -1,0 +1,34 @@
+.map > iframe{
+    width: 100%;
+    height: 250px;
+}
+
+.formflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.myform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactheading{
+    text-align: center;
+}
+
+.formflex > label{
+    padding: 20px 0;
+}
+
+.formflex  label  input{
+    margin-top: 5px;
+}
+
+.formflex > label:nth-child(2) > textarea:nth-child(2) {
+    margin-top: 7px;
+  }

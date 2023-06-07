@@ -1,0 +1,411 @@
+.navbar{
+    padding-left: 46px;
+    background-color: rgb(255, 253, 253);
+    height: 80px;
+    background-color: rgba(230, 240, 239, 255);
+}
+
+.logoimg {
+    width: 60px;
+    height: 60px;
+}
+
+.logoimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-toggler{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.navbar-toggler-icon{
+    width: 50px;
+}
+.collapse{
+    padding-left: 400px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.button-group{
+    display: flex;
+    justify-content:space-between;
+    width: 283px;
+    padding-right: 70px !important;
+}
+
+.btn1{
+    background-color:rgba(230, 240, 239, 255);
+    width: 90px;
+    color: black;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.btn1 a{
+    color: black;
+    text-decoration: none;
+}
+.btn2{
+    background-color: black;
+    width: 90px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+.btn2 a{
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 100px;
+    width: 80px;
+    height: 30px;
+
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.body{
+    background-color:rgba(230, 240, 239, 255);
+    height: 90vh;
+    width: 100%;
+}
+
+.product{
+    display: flex;
+    flex-direction:row;
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+.filters{
+   width: 300px;
+   display: flex;
+    flex-direction: column;
+    background-color: #ffffff !important;
+}
+
+.searchform{
+    display:flex;
+    flex-direction: row;
+}
+.filterlist{
+    padding-top: 30px;
+}
+
+.filterlist li{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #e6f0ef;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    cursor: pointer;
+}
+.companydropdown{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.priceRange{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+.mybtn{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mybtn button{
+    background-color: black;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+}
+.myrange {
+    appearance: none;
+    background-color: rgba(230, 240, 239, 255);
+    height: 10px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+   
+  }
+  .myrange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .myrange::-webkit-slider-thumb:hover {
+    box-shadow: 0px 0px 10px hsl(153, 73%, 77%);
+  }
+
+  .product-header{
+        padding-left: 50px;
+  }
+  .prodnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 960px;
+  }
+
+  .prod-card{
+    padding-top: 30px;
+    width: 250px;
+    background-color: aqua;
+    height: 350px;
+  }
+
+  .mycardimgtop{
+    width: 318px !important;
+    height: 280px !important;
+  }
+
+  .mycard{
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #353434;
+  }
+
+  .mybtnn{
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.8s;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mybtnn:hover{
+    background-color: #93d693;
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+  }
+
+  .mybtnn:hover a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .col{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    padding-top: 8px;
+    background-color: #ffffff;
+  }
+
+  .mycardscolu{
+    width: 920px;
+    height: 285px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #353434;
+  }
+ .ibut{
+    cursor: pointer;
+ }
+  .mycardbody{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+  }
+
+
+  @media(max-width:700px){
+    .body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding-left: 20px;
+        background-color: rgb(255, 253, 253);
+        height: 80px;
+        background-color: rgba(230, 240, 239, 255);
+    }
+    .navbar-brand{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar-toggler{
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        width: 50px;
+    }
+    .collapse{
+        padding-left: 30px !important;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    .button-group{
+        display: flex;
+        justify-content:space-between;
+        width: 283px;
+        padding-right: 70px !important;
+    }
+    
+    .btn1{
+        background-color:rgba(230, 240, 239, 255);
+        width: 90px;
+        color: black;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+    }
+    .btn1 a{
+        color: black;
+        text-decoration: none;
+    }
+    .btn2{
+        background-color: black;
+        width: 90px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+    }
+    .btn2 a{
+        color: #ffffff; 
+        text-decoration: none;
+    }
+
+    .product{
+        display: flex;
+        flex-direction:row;
+        padding-left: 4px;
+        padding-top: 30px;
+        background-color: #ffffff;
+    }
+    .filters{
+       width: 100px;
+       display: flex;
+        flex-direction: column;
+        background-color: #ffffff !important;
+    }
+    
+    .searchform{
+        display:flex;
+        flex-direction: row;
+    }
+    .filterlist{
+        padding-top: 30px;
+    }
+    
+    .filterlist li{
+        list-style-type: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-bottom: 1px solid #e6f0ef;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000000;
+        cursor: pointer;
+    }
+    .companydropdown{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000000;
+    }
+    .priceRange{
+        padding-top: 20px;
+        padding-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000000;
+    }
+    
+    .mybtn{
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .mybtn button{
+        background-color: black;
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+    }
+  } 
